@@ -1,0 +1,32 @@
+[
+  {
+    "arabaAdi": "mercedes",
+    "ulke": "Almanya",
+    "kurulusYil": 1900,
+    "model": [
+      {
+        "modelAdi": "A serisi",
+        "fiyat": 15000
+      },
+      {
+        "modelAdi": "B serisi",
+        "fiyat": 20000
+      }
+    ]
+  },
+  {
+    "arabaAdi": "Hondo",
+    "ulke": "Japonya",
+    "kurulusYil": 1920,
+    "model": [
+      {
+        "modelAdi": "civic",
+        "fiyat": 10000
+      },
+      {
+        "modelAdi": "jazz",
+        "fiyat": 35000
+      }
+    ]
+  }
+]
