@@ -21,12 +21,20 @@ class StateHomePage extends State<HomePage> {
 
   Widget bodyForHome() {
     return Center(
-      child: RaisedButton(
-        child: Text("go to json values"),
-        onPressed: () {
-          Navigator.pushNamed(context, "/JsonValuesPage");
-        },
-      ),
+      child: Column(
+          children: [
+      RaisedButton(
+      child: Text("go to json values"),
+      onPressed: () {
+        Navigator.pushNamed(context, "/JsonValuesPage");
+      },
+    ),
+    RaisedButton(
+    child: Text("remote values"),
+    onPressed: () {
+    Navigator.pushNamed(context, "/RemotePage");
+    },
+    )]),
     );
-  }
+    }
 }

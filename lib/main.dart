@@ -1,5 +1,7 @@
 import 'package:api_json_http/screens/home_page.dart';
 import 'package:api_json_http/screens/json_values.dart';
+import 'package:api_json_http/screens/remote_values.dart';
+import 'package:api_json_http/screens/with_future_builder.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,6 +17,8 @@ class MyApp extends StatelessWidget{
       routes: {
         '/HomePage':(context)=>HomePage(),
         '/JsonValuesPage':(context)=>JsonValuesPage(),
+        '/JsonVPage':(context)=>JsonVPage(),
+        '/RemotePage':(context)=>RemoteValues(),
       },
     );
   }
